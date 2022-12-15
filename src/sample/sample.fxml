@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.layout.*?>
+<?import sample.*?>
+
+
+<AnchorPane fx:id="container" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <CanvasPlus fx:id="canvas" height="200.0" rotate="180.0" width="200.0">
+         <rotationAxis>
+            <Point3D x="1.0" />
+         </rotationAxis>
+      </CanvasPlus>
+   </children>
+</AnchorPane>
